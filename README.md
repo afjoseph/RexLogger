@@ -18,3 +18,6 @@ Printing a stacktrace would look like this:
 ```smali
     invoke-static {}, Lcom/spotify/rex/RexLogger;->stacktrace()I
 ```
+
+# Building `RexLogger.smali`
+From what I see [here](https://stackoverflow.com/questions/29051781/convert-java-file-to-smali-file), there's a proper way to convert a `.java` file to `.smali`. The way I made it was a bit longer: I made an example app, decompiled it with `apktool` and extracted the `.smali` file. `apktool` uses `baksmali` internally, so the process was the same.
