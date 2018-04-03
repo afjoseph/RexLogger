@@ -2,6 +2,8 @@
 
 Add `RexLogger.smali` to a decompiled app to inject logs in the app. For more info on instructions, see `RexLogger.java`
 
+This repo was inspired by this post from [nccgroup](https://www.nccgroup.trust/us/about-us/newsroom-and-events/blog/2013/march/apktool-make-me-a-logcat-sandwich/)
+
 # Usage
 - Make a directory called `rex` in the `smali` directory on the decompiled app. I'm assuming you've used `apktool` to do the decompilation.
 - Put `RexLogger.smali` in the newly created `rex` directory.
